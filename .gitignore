@@ -1,0 +1,16 @@
+# PDFs e imagens geradas
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Ambiente virtual
+venv/
+.env
+
+# VS Code
+.vscode/

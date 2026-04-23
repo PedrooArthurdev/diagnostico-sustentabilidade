@@ -1,0 +1,293 @@
+{
+  "versao": "1.0.0",
+  "escala_global": {
+    "minimo": 0,
+    "maximo": 10,
+    "descricao": "Score normalizado por categoria (0 = crítico, 10 = excelente)"
+  },
+  "categorias": [
+    {
+      "id": "saneamento_basico",
+      "nome": "Saneamento Básico",
+      "peso_final": 0.20,
+      "indicadores": [
+        {
+          "id": "sb_01",
+          "nome": "Cobertura de abastecimento de água tratada",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Menos de 25% da população atendida",
+            "1": "Entre 25% e 50% da população atendida",
+            "2": "Entre 50% e 75% da população atendida",
+            "3": "Entre 75% e 90% da população atendida",
+            "4": "Mais de 90% da população atendida"
+          }
+        },
+        {
+          "id": "sb_02",
+          "nome": "Cobertura de esgotamento sanitário",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem sistema de coleta de esgoto",
+            "1": "Coleta parcial, sem tratamento",
+            "2": "Coleta parcial com tratamento básico",
+            "3": "Coleta ampla com tratamento secundário",
+            "4": "Coleta plena com tratamento avançado"
+          }
+        },
+        {
+          "id": "sb_03",
+          "nome": "Qualidade da água distribuída (conformidade com padrão CONAMA)",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem monitoramento de qualidade",
+            "1": "Monitoramento esporádico, recorrentes não conformidades",
+            "2": "Monitoramento regular, não conformidades ocasionais",
+            "3": "Monitoramento regular, conformidade na maior parte do tempo",
+            "4": "Monitoramento contínuo, plena conformidade"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gestao_residuos",
+      "nome": "Gestão de Resíduos Sólidos",
+      "peso_final": 0.20,
+      "indicadores": [
+        {
+          "id": "gr_01",
+          "nome": "Destinação final dos resíduos sólidos urbanos",
+          "peso": 0.40,
+          "escala": 4,
+          "opcoes": {
+            "0": "Lixão a céu aberto",
+            "1": "Aterro controlado sem licença ambiental",
+            "2": "Aterro controlado com licença ambiental",
+            "3": "Aterro sanitário licenciado",
+            "4": "Aterro sanitário com aproveitamento energético ou biogás"
+          }
+        },
+        {
+          "id": "gr_02",
+          "nome": "Existência e operação de coleta seletiva",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Programa piloto em fase de implantação",
+            "2": "Coleta seletiva em parte do município",
+            "3": "Coleta seletiva com cooperativas de catadores",
+            "4": "Coleta seletiva plena com metas de desvio atingidas"
+          }
+        },
+        {
+          "id": "gr_03",
+          "nome": "Plano Municipal de Gestão Integrada de Resíduos (PMGIRS)",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Em elaboração",
+            "2": "Elaborado, não implementado",
+            "3": "Implementado parcialmente",
+            "4": "Implementado e revisado periodicamente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mobilidade_urbana",
+      "nome": "Mobilidade Urbana Sustentável",
+      "peso_final": 0.15,
+      "indicadores": [
+        {
+          "id": "mu_01",
+          "nome": "Infraestrutura para ciclistas e pedestres",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Ausente",
+            "1": "Calçadas precárias, sem ciclofaixa",
+            "2": "Calçadas razoáveis, ciclofaixa em trechos isolados",
+            "3": "Rede de calçadas boa, ciclovias conectadas",
+            "4": "Rede integrada cicloviária e de pedestres com acessibilidade"
+          }
+        },
+        {
+          "id": "mu_02",
+          "nome": "Qualidade do transporte público coletivo",
+          "peso": 0.40,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Serviço precário e irregular",
+            "2": "Serviço regular com frota antiga",
+            "3": "Serviço regular com frota renovada",
+            "4": "Transporte público eficiente, integrado e com veículos de baixa emissão"
+          }
+        },
+        {
+          "id": "mu_03",
+          "nome": "Plano de Mobilidade Urbana (PlanMob)",
+          "peso": 0.25,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Em elaboração",
+            "2": "Elaborado, não implementado",
+            "3": "Em implementação",
+            "4": "Implementado com monitoramento contínuo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "educacao_ambiental",
+      "nome": "Educação e Consciência Ambiental",
+      "peso_final": 0.15,
+      "indicadores": [
+        {
+          "id": "ea_01",
+          "nome": "Programas de educação ambiental nas escolas municipais",
+          "peso": 0.40,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Atividades pontuais e não sistematizadas",
+            "2": "Programa estruturado em algumas escolas",
+            "3": "Programa estruturado em todas as escolas",
+            "4": "Programa transversal integrado ao currículo com avaliação de impacto"
+          }
+        },
+        {
+          "id": "ea_02",
+          "nome": "Campanhas de sensibilização ambiental para a população",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Campanhas esporádicas sem planejamento",
+            "2": "Campanhas anuais temáticas",
+            "3": "Programa contínuo de comunicação ambiental",
+            "4": "Programa contínuo com medição de engajamento e resultados"
+          }
+        },
+        {
+          "id": "ea_03",
+          "nome": "Parcerias com ONGs e universidades em projetos ambientais",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem parcerias",
+            "1": "Parcerias informais e pontuais",
+            "2": "Parceria formal com ao menos uma instituição",
+            "3": "Múltiplas parcerias formais ativas",
+            "4": "Ecossistema consolidado de parcerias com projetos em andamento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "biodiversidade",
+      "nome": "Biodiversidade e Áreas Verdes",
+      "peso_final": 0.15,
+      "indicadores": [
+        {
+          "id": "bv_01",
+          "nome": "Percentual de área verde por habitante (m²/hab)",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Menos de 5 m²/hab",
+            "1": "Entre 5 e 9 m²/hab",
+            "2": "Entre 9 e 12 m²/hab (referência OMS)",
+            "3": "Entre 12 e 20 m²/hab",
+            "4": "Mais de 20 m²/hab"
+          }
+        },
+        {
+          "id": "bv_02",
+          "nome": "Existência de Unidades de Conservação municipais",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem UCs municipais",
+            "1": "UCs criadas em lei, sem gestão efetiva",
+            "2": "UCs com plano de manejo em elaboração",
+            "3": "UCs com plano de manejo aprovado",
+            "4": "UCs com plano de manejo implementado e monitoramento de biodiversidade"
+          }
+        },
+        {
+          "id": "bv_03",
+          "nome": "Programas de recuperação de áreas degradadas e matas ciliares",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Ações pontuais sem continuidade",
+            "2": "Programa estruturado com metas",
+            "3": "Programa com metas atingidas e monitoramento",
+            "4": "Programa consolidado com parcerias e resultados comprovados"
+          }
+        }
+      ]
+    },
+    {
+      "id": "governanca_ambiental",
+      "nome": "Governança Ambiental",
+      "peso_final": 0.15,
+      "indicadores": [
+        {
+          "id": "ga_01",
+          "nome": "Existência e funcionalidade do Conselho Municipal de Meio Ambiente",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Inexistente",
+            "1": "Criado em lei, sem reuniões regulares",
+            "2": "Reuniões regulares sem deliberações efetivas",
+            "3": "Funcionamento pleno com deliberações implementadas",
+            "4": "Funcionamento exemplar com participação da sociedade civil e monitoramento"
+          }
+        },
+        {
+          "id": "ga_02",
+          "nome": "Capacidade técnica da secretaria/órgão ambiental municipal",
+          "peso": 0.35,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem estrutura dedicada ao meio ambiente",
+            "1": "Setor dentro de outra secretaria, sem técnicos especializados",
+            "2": "Secretaria própria com equipe mínima",
+            "3": "Secretaria estruturada com corpo técnico qualificado",
+            "4": "Secretaria com equipe completa, orçamento próprio e sistema de dados"
+          }
+        },
+        {
+          "id": "ga_03",
+          "nome": "Legislação ambiental municipal atualizada (Código Ambiental, ZEIS, etc.)",
+          "peso": 0.30,
+          "escala": 4,
+          "opcoes": {
+            "0": "Sem legislação ambiental municipal",
+            "1": "Legislação desatualizada (>10 anos)",
+            "2": "Legislação parcialmente atualizada",
+            "3": "Legislação atualizada e aplicada",
+            "4": "Legislação moderna, aplicada e com mecanismos de enforcement eficaz"
+          }
+        }
+      ]
+    }
+  ],
+  "faixas_classificacao": [
+    { "minimo": 0.0,  "maximo": 2.5,  "nivel": "Crítico",    "cor": "#D32F2F" },
+    { "minimo": 2.5,  "maximo": 5.0,  "nivel": "Insuficiente","cor": "#F57C00" },
+    { "minimo": 5.0,  "maximo": 7.0,  "nivel": "Regular",    "cor": "#FBC02D" },
+    { "minimo": 7.0,  "maximo": 8.5,  "nivel": "Bom",        "cor": "#388E3C" },
+    { "minimo": 8.5,  "maximo": 10.0, "nivel": "Excelente",  "cor": "#1B5E20" }
+  ]
+}

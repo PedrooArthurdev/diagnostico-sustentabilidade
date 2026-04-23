@@ -1,0 +1,9 @@
+timestamp,municipio,populacao,responsavel,cargo,email,sb_01,sb_02,sb_03,gr_01,gr_02,gr_03,mu_01,mu_02,mu_03,ea_01,ea_02,ea_03,bv_01,bv_02,bv_03,ga_01,ga_02,ga_03
+2024-03-10 09:15:00,Belém,1500000,João Silva,Secretário de Meio Ambiente,joao@belem.pa.gov.br,3,2,3,3,3,3,2,2,2,3,2,3,1,2,2,3,3,3
+2024-03-11 14:30:00,Santarém,320000,Maria Costa,Diretora Ambiental,maria@santarem.pa.gov.br,2,1,2,2,2,2,1,1,1,2,2,2,2,1,1,2,2,2
+2024-03-12 10:00:00,Marabá,280000,Carlos Nunes,Chefe de Gabinete,carlos@maraba.pa.gov.br,2,0,1,1,0,1,0,1,0,1,1,1,1,0,0,1,1,1
+2024-03-13 16:45:00,Castanhal,195000,Ana Rodrigues,Gestora Ambiental,ana@castanhal.pa.gov.br,2,2,2,2,1,2,1,1,1,2,1,1,1,1,1,2,1,2
+2024-03-14 08:20:00,Altamira,110000,Pedro Ferreira,Coordenador,pedro@altamira.pa.gov.br,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0
+2024-03-15 11:05:00,Paragominas,105000,Lúcia Mendes,Secretária,lucia@paragominas.pa.gov.br,3,2,3,3,2,3,1,1,2,2,2,2,3,2,3,2,2,3
+2024-03-16 09:30:00,Tucuruí,97000,Roberto Lima,Diretor,roberto@tucurui.pa.gov.br,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2024-03-17 13:15:00,Barcarena,130000,Sandra Oliveira,Gestora,sandra@barcarena.pa.gov.br,1,1,1,1,1,1,0,0,0,1,0,1,0,0,1,1,0,1
